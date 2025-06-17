@@ -64,7 +64,7 @@
 
     document.getElementById("doctorName").textContent = user.name;
 
-    fetch("http://localhost:5000/api/bookings/doctor", {
+    fetch("https://quickclinic-backend.onrender.com/api/bookings/doctor", {
       headers: {
         "Authorization": `Bearer ${token}`
       }

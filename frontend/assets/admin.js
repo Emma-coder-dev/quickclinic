@@ -65,7 +65,7 @@ fetch("http://localhost:5000/api/admin/users", {
 function promoteUser(userId) {
   if (!confirm("Promote this user to admin?")) return;
 
-  fetch(`http://localhost:5000/api/admin/user/${userId}/role`, {
+  fetch(`https://quickclinic-backend.onrender.com/api/admin/user/${userId}/role`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
@@ -88,7 +88,7 @@ function promoteUser(userId) {
 function deleteUser(userId) {
   if (!confirm("Delete this user permanently?")) return;
 
-  fetch(`http://localhost:5000/api/admin/user/${userId}`, {
+  fetch(`https://quickclinic-backend.onrender.com/api/admin/user/${userId}`, {
     method: "DELETE",
     headers: { Authorization: `Bearer ${token}` }
   })
