@@ -11,7 +11,7 @@ if (!token || !user || user.role !== "admin") {
 }
 
 // 🔢 Load stats
-fetch("http://localhost:5000/api/admin/stats", {
+fetch("https://quickclinic-backend.onrender.com/api/admin/stats", {
   headers: { Authorization: `Bearer ${token}` }
 })
   .then(res => res.json())
@@ -25,7 +25,7 @@ fetch("http://localhost:5000/api/admin/stats", {
   .catch(err => console.error("Stats error:", err));
 
 // 👥 Load users
-fetch("http://localhost:5000/api/admin/users", {
+fetch("https://quickclinic-backend.onrender.com/api/admin/users", {
   headers: { Authorization: `Bearer ${token}` }
 })
   .then(res => res.json())
