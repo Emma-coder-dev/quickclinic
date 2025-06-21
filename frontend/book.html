@@ -47,6 +47,25 @@
     </div>
   </main>
 
+  <script>
+  const userData = localStorage.getItem("user");
+  const token = localStorage.getItem("token");
+
+  if (!userData || !token) {
+    alert("Please log in first.");
+    window.location.href = "login.html";
+  }
+
+  const user = JSON.parse(userData);
+  
+  // 🚫 Prevent doctors from accessing this page
+  if (user.role === "doctor") {
+    alert("Doctors are not allowed to book appointments.");
+    window.location.href = "dashboard.html"; // or doctor-dashboard.html
+  }
+</script>
+
+
   <script src="assets/darkmode.js"></script>
   <script src="assets/sidebar.js"></script>
   <script src="assets/book.js"></script>
