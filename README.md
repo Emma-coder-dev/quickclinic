@@ -6,7 +6,7 @@ QuickClinic is a modern, full-stack web application that offers fast, reliable, 
 
 ## 📱Live Project
 
-- **Frontend**: [https://quickclinic-iota.vercel.app](https://quickclinic-iota.vercel.app)  
+- **Frontend**: [https://quickclinic-iota.vercel.app](https://quickclinic-six.vercel.app)  
 - **Pitch Deck**: [View on Gamma](https://gamma.app/docs/QuickClinic-b7s7g0ymbqb6duk)  
 - **Email**: [kagenineema@gmail.com](mailto:kagenineema@gmail.com)
 
