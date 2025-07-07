@@ -1,10 +1,10 @@
-# QuickClinic
+# 🚑QuickClinic
 
 QuickClinic is a modern, full-stack web application that offers fast, reliable, and accessible medical consultations. It enables patients to book appointments, consult doctors remotely, and manage their healthcare from any device. Built with a responsive design, secure role-based access, and real-time email notifications, QuickClinic is designed to improve healthcare access, especially in underserved areas.
 
 
 
-## Live Project
+## 📱Live Project
 
 - **Frontend**: [https://quickclinic-iota.vercel.app](https://quickclinic-iota.vercel.app)  
 - **Pitch Deck**: [View on Gamma](https://gamma.app/docs/QuickClinic-b7s7g0ymbqb6duk)  
@@ -118,4 +118,4 @@ quickclinic/
 ## Author
 
 **Neema Kageni**  
-Email: [kagenineema@gmail.com](mailto:kagenineema@gmail.com)
+✉️ Email: [kageni@gmail.com](mailto:kagenineema@gmail.com)
