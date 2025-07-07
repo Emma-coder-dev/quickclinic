@@ -118,4 +118,4 @@ quickclinic/
 ## Author
 
 **Neema Kageni**  
-✉️ Email: [kageni@gmail.com](mailto:kagenineema@gmail.com)
+✉️ Email: [kagenineema@gmail.com](mailto:kagenineema@gmail.com)
